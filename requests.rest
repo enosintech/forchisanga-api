@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/wish
+
+###
+
+POST http://localhost:3000/api/wish/new
+Content-Type: application/json
+
+{
+    "wish": "Happy Birthday Chisanga",
+    "name": "Enos"
+}
